@@ -7,15 +7,15 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # 追加済　7/5時点
-2.times do |n|
-  user = User.new(
-    user_name: "テストユーザー#{n}",
-    email: "test#{n}@gmail.com",
-    password_digest: "password"
-  )
+# 2.times do |m|
+#   user = User.new(
+#     user_name: "テストユーザー#{m}",
+#     email: "test#{m}@gmail.com",
+#     password_digest: "password#{m}"
+#   )
 
-  user.save!
-end
+#   user.save!
+# end
 
 # 追加済　7/5時点
 # 2.times do |n|
