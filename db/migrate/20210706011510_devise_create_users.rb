@@ -10,7 +10,6 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.0]
       t.string :image
       t.string :profile_text
       t.string :link
-      t.references :content, foreign_key: true
 
       ## Recoverable
       t.string   :reset_password_token

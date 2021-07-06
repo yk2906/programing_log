@@ -4,6 +4,7 @@ class CreateBookMarks < ActiveRecord::Migration[6.0]
       t.string :book_mark_name, null: false
       t.string :tag
       t.string :book_mark_url, null: false
+      t.references :content, null: false, foreign_key: true
 
       t.timestamps null: false
     end
