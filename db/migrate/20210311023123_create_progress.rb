@@ -7,7 +7,7 @@ class CreateProgress < ActiveRecord::Migration[6.0]
       t.time :this_month
       t.time :total_time
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end

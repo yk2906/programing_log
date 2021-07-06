@@ -5,7 +5,7 @@ class CreateBookMarks < ActiveRecord::Migration[6.0]
       t.string :tag
       t.string :book_mark_url, null: false
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end
